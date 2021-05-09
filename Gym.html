@@ -1,0 +1,161 @@
+<!-- Design a website using HTML & CSS -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priya's Gym</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Zilla+Slab:wght@300&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background: url("https://thumbs.dreamstime.com/z/close-up-portrait-fitness-young-muscular-girl-posing-barbell-gym-isolated-black-background-181090027.jpg");
+            color: white;
+            font-family: 'Bebas Neue', cursive;
+
+        }
+
+        .left {
+
+            display: inline-block;
+            position: absolute;
+            left: 13px;
+            top: 12px;
+            width: 23px;
+
+
+        }
+
+        .left img {
+            width: 144px;
+            height: 144px;
+        }
+
+        .right {
+            
+            display: inline-block;
+            position: absolute;
+            right: 13px;
+            top: 19px;
+            font-size: larger;
+
+        }
+
+        .mid {
+            display: block;
+            width: 36%;
+            margin: 12px auto;
+            color: white;
+            margin-top: 24px;
+
+        }
+
+        .navbar li {
+            display: inline-block;
+            padding: 14px 24px;
+            font-size: 24px;
+            font-size: 187%;
+
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            color: rgb(175, 166, 166);
+            text-decoration: underline;
+
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+
+
+        }
+
+        .btn {
+            margin: 13px 8px;
+            padding: 8px 40px;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 7px;
+
+        }
+
+        .btn:hover {
+            color: gray;
+            background-color: yellow;
+
+        }
+
+        .contain {
+            border: 2px solid white;
+            width: 33%;
+            margin-top: 140px;
+            margin-left: 55px;
+            text-align: center;
+        }
+        .contain h1{
+            padding: 1px 0px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .formgroup{
+            padding: 4px 3px;
+        }
+        .formgroup input{
+            padding:4px 65px ;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+            font-weight: bold;
+            
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="https://thumbs.dreamstime.com/b/white-dumbbell-gym-logo-black-background-workout-sign-vector-template-172909186.jpg"
+                alt="loading" class="src">
+        </div>
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">Contact</button><button class="btn">Email us</button>
+        </div>
+        <div class="contain">
+        <h1>Welcome  to  Delhi  Best  Gym</h1>
+        <form action="noaction.php"></form>
+        <div class="formgroup">
+            <input type="text" class="text" placeholder="Enter your Name">
+        </div>
+        <div class="formgroup">
+            <input type="text" class="text" placeholder="Enter your Email">
+        </div>
+        <div class="formgroup">
+            <input type="text" class="text" placeholder="Enter your Gender">
+        </div>
+        <div class="formgroup">
+            <input type="text" class="text" placeholder="Enter your PhoneNumber">
+        </div>
+        <button class="btn">Submit</button>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
